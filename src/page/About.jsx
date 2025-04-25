@@ -1,14 +1,12 @@
 import about from "../assets/About-img-1.jpg"
 import about2 from "../assets/about-img-sec.jpg"
 import Details from "../Components/Details";
-import Divider from "../Components/divider";
-
-import customerservice from "../assets/customer-service.png";
 import value from "../assets/value-img.png";
 import vission from "../assets/vission-img.png";
 import mission from "../assets/mission-img.png";
 import Footer from "../Components/Footer";
 import { motion } from "framer-motion";
+import Divider from "../Components/divider";
 
 
 const data = [
@@ -220,7 +218,7 @@ function About() {
         </div>
       </div>
       <Divider />
-      
+
       <div className="lg:px-36 px-3 pb-10 flex">
         <div className="pt-25 pb-20">
           <div className="grid xl:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-1">
