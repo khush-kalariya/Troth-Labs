@@ -70,7 +70,7 @@ import customerservice from "../assets/customer-service.png";
 import laptop from "../assets/laptop.png";
 import html from "../assets/html.png";
 import smartphone from "../assets/smartphone.png";
-import Divider from "../Components/divider";
+import Divider from "../Components/Divider";
 
 const data = [
   {

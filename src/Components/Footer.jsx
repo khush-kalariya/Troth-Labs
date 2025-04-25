@@ -1,7 +1,7 @@
 import React from "react";
 import troth from "../assets/troth-logo-1.png";
 import { FaLocationDot, FaMobileScreenButton, FaEnvelope, FaClock } from "react-icons/fa6";
-import Divider from "./divider";
+import Divider from "./Divider";
 
 // Footer Data
 const footerInfo = [

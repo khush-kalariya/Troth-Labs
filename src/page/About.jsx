@@ -6,7 +6,7 @@ import vission from "../assets/vission-img.png";
 import mission from "../assets/mission-img.png";
 import Footer from "../Components/Footer";
 import { motion } from "framer-motion";
-import Divider from "../Components/divider";
+import Divider from "../Components/Divider";
 
 
 const data = [

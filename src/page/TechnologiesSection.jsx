@@ -153,7 +153,7 @@
 import React, { useState } from "react";
 import { motion } from "framer-motion"; // Import Framer Motion
 import technology from "../assets/Technology-Img.png";
-import Divider from "../Components/divider";
+import Divider from "../Components/Divider";
 
 const technologies = [
   {

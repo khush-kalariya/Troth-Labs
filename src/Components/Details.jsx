@@ -43,7 +43,7 @@ import target from "../assets/target.png";
 import Idea from "../assets/light-bulb.png";
 import cloud from "../assets/cloud.png";
 import trips from "../assets/management.png";
-import Divider from "./divider";
+import Divider from "../Components/Divider";
 
 const data = [
   { imgSrc: target, count: 20, label: "Happy Client" },

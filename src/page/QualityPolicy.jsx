@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
-import Divider from "../Components/divider";
+import Divider from "../Components/Divider";
 import Footer from "../Components/Footer";
 
 const services = [

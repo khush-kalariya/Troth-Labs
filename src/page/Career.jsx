@@ -6,7 +6,7 @@ import authenticity from "../assets/Authenticity.svg";
 import honest from "../assets/Honest.svg";
 import { FaPlus, FaMinus } from "react-icons/fa";
 import illustration from "../assets/career-img1.svg";
-import Divider from "../Components/divider.jsx";
+import Divider from "../Components/Divider";
 import { FaArrowRightLong } from "react-icons/fa6";
 import Footer from "../Components/Footer";
 import { motion } from "framer-motion";

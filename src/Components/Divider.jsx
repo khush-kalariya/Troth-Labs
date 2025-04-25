@@ -1,9 +1,7 @@
-import React from 'react'
+import React from "react";
 
-function divider() {
-  return (
-    <div className="border-b border-dashed"></div>
-  )
+function Divider() {
+  return <div className="border-b border-dashed"></div>;
 }
 
-export default divider
+export default Divider;

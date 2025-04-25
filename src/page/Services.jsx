@@ -1,6 +1,6 @@
 import React from "react";
 import services from "../assets/services-hero-img1.png";
-import Divider from "../Components/divider";
+import Divider from "../Components/Divider";
 import Details from "../Components/Details";
 import { FaArrowRightLong } from "react-icons/fa6";
 import nodejs from "../assets/node-js-svgrepo-com (1).svg";
