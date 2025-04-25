@@ -1,9 +1,7 @@
-import React from 'react'
-import Divider from '../Components/divider';
-import { FaCheckDouble } from 'react-icons/fa6';
-import Footer from '../Components/Footer';
+import React from "react";
 import { motion } from "framer-motion";
-
+import Divider from "../Components/divider";
+import Footer from "../Components/Footer";
 
 const services = [
   {
@@ -164,4 +162,4 @@ function QualityPolicy() {
   );
 }
 
-export default QualityPolicy
+export default QualityPolicy;
