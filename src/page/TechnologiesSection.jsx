@@ -214,7 +214,9 @@ const technologies = [
   {
     title: "Testing & Quality Control",
     items: [
-      "PhpUnit, Behat and Selenium with normal and headless browsers like phantomJS",
+      "Cypress",
+      "Web UI Testing",
+      "LambdaTest"
     ],
   },
 ];
@@ -228,7 +230,7 @@ const TechnologiesSection = () => {
 
   return (
     <>
-      <div className="lg:px-18 lg:py-20 px-10 py-10 grid lg:grid-cols-2 grid-cols-1 gap-10 items-center">
+      <div className="lg:px-18 lg:py-20 px-4 py-10 grid lg:grid-cols-2 grid-cols-1 gap-10 items-center">
         {/* Left Section */}
         <motion.div
           initial={{ opacity: 0, x: -50 }} // Start from the left and invisible
@@ -236,7 +238,7 @@ const TechnologiesSection = () => {
           transition={{ duration: 0.8 }}
           className="flex flex-col items-center"
         >
-          <h1 className="text-5xl font-medium pl-2">
+          <h1 className="lg:text-5xl text-3xl font-medium pl-2">
             It is a long established fact that a reader will be distracted by
             the readable content of a page when.
           </h1>
@@ -257,20 +259,22 @@ const TechnologiesSection = () => {
           {technologies.map((tech, index) => (
             <div key={index}>
               <div
-                className="flex items-center gap-4 cursor-pointer px-5"
+                className="flex items-center gap-4 cursor-pointer px-1"
                 onClick={() => toggleAccordion(index)}
               >
-                <div className="lg:w-[45px] lg:h-[43px] w-[38px] h-[37px] rounded-full bg-gray-700 flex items-center justify-center text-white lg:text-3xl">
+                <div className="lg:w-[43px] lg:h-[43px] w-[30px] h-[30px] rounded-full bg-gray-700 flex items-center justify-center text-white lg:text-3xl">
                   {activeIndex === index ? "-" : "+"}
                 </div>
-                <h2 className="lg:text-xl text-[14px] font-semibold">
-                  {tech.title}
-                </h2>
+                <div>
+                  <h2 className="lg:text-xl text-[13px] lg:font-semibold md:font-semibold">
+                    {tech.title}
+                  </h2>
+                </div>
               </div>
 
               {/* Animated Accordion Content */}
               <motion.div
-                className="mt-4 grid grid-cols-2 gap-3 px-10 lg:text-2xl"
+                className="mt-4 grid grid-cols-2 gap-3 lg:px-10 px-2 lg:text-2xl"
                 initial={{ height: 0, opacity: 0 }} // Start collapsed and invisible
                 animate={{
                   height: activeIndex === index ? "auto" : 0,

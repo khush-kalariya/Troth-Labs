@@ -47,7 +47,7 @@ function Working() {
     <>
       <div className="lg:px-18 lg:pt-20">
         <div>
-          <h1 className="text-5xl leading-15">
+          <h1 className="lg:text-5xl text-3xl lg:leading-15 px-3 py-5">
             Our Working Process
             <br />
             How We Work For Our Customers
