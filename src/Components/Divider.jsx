@@ -1,7 +1,7 @@
 import React from 'react'
 
-function Divider() {
+function divider() {
   return <div className="border-b border-dashed"></div>;
 }
 
-export default Divider
+export default divider
