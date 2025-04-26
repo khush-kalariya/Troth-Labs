@@ -93,7 +93,7 @@ function Hero() {
         </div>
 
         {/* Right column cards */}
-        <div className="flex flex-col gap-[30px] mt-[20px]">
+        <div className="flex flex-col gap-[20px] mt-[20px]">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
