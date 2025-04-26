@@ -48,7 +48,7 @@ function Hero() {
         initial={{ opacity: 0, x: 50 }}
         animate={{ opacity: 1, x: 0 }}
         transition={{ duration: 0.8, delay: 0.2 }}
-        className="xl:w-[50%] lg:w-[60%] lg:gap-6 xl:gap-10 lg:px-8 xl:px-10 flex gap-10 w-full px-10 pb-10 flex-col md:flex-row lg:mr-10 mr-20 mb-10"
+        className="xl:w-[50%] lg:w-[60%] lg:gap-6 xl:gap-10 lg:px-8 xl:px-10 flex gap-0 md:gap-10 w-full px-10 pb-10 flex-col md:flex-row lg:mr-10 mr-20 mb-10"
       >
         {/* Left column cards */}
         <div className="flex flex-col gap-[20px] mt-20">
