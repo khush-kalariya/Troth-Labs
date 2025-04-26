@@ -8,6 +8,7 @@ import QualityPolicy from "./page/QualityPolicy";
 import Services from "./page/Services";
 import Career from "./page/Career";
 import Contact from "./page/Contact";
+import Background from "./Components/Background";
 
 const Layout = () => {
   const [sidebarOpen, setSidebarOpen] = useState(false);
@@ -28,14 +29,18 @@ const Layout = () => {
         </div>
       )}
 
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/qualitypolicy" element={<QualityPolicy />} />
-        <Route path="/services" element={<Services />} />
-        <Route path="/career" element={<Career />} />
-        <Route path="/contact" element={<Contact />} />
-      </Routes>
+      <Background/>
+
+      <div className="">
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/qualitypolicy" element={<QualityPolicy />} />
+          <Route path="/services" element={<Services />} />
+          <Route path="/career" element={<Career />} />
+          <Route path="/contact" element={<Contact />} />
+        </Routes>
+      </div>
     </>
   );
 };

@@ -1,6 +1,6 @@
 import React from "react";
 import { FaArrowRightLong } from "react-icons/fa6";
-import { motion } from "framer-motion"; // ✅ Added
+import { motion } from "framer-motion";
 import laptop from "../assets/laptop.png";
 import mange from "../assets/management-2.png";
 import path from "../assets/pathway.png";
@@ -8,7 +8,7 @@ import deadline from "../assets/deadline.png";
 import { Link } from "react-router-dom";
 function Hero() {
   return (
-    <div className="bg-[#FFE9DC] w-full h-full lg:flex lg:pt-28 pt-10">
+    <div className="bg-[#FFE9DC] w-full h-full lg:flex">
       {/* Left Section */}
       <motion.div
         initial={{ opacity: 0, x: -50 }}
