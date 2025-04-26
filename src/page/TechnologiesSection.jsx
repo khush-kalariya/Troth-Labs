@@ -233,9 +233,9 @@ const TechnologiesSection = () => {
       <div className="lg:px-18 lg:py-20 px-4 py-10 grid lg:grid-cols-2 grid-cols-1 gap-10 items-center">
         {/* Left Section */}
         <motion.div
-          initial={{ opacity: 0, x: -50 }} // Start from the left and invisible
-          whileInView={{ opacity: 1, x: 0 }} // Fade in and slide into position
-          transition={{ duration: 0.8 }}
+          initial={{ opacity: 0, y: 50 }} // Start from the left and invisible
+          whileInView={{ opacity: 1, y: 0 }} // Fade in and slide into position
+          transition={{ duration: 1 }}
           className="flex flex-col items-center"
         >
           <h1 className="lg:text-5xl text-3xl font-medium pl-2">
@@ -251,9 +251,9 @@ const TechnologiesSection = () => {
 
         {/* Right Section */}
         <motion.div
-          initial={{ opacity: 0, x: 50 }} // Start from the right and invisible
-          whileInView={{ opacity: 1, x: 0 }} // Fade in and slide into position
-          transition={{ duration: 0.8 }}
+          initial={{ opacity: 0, y: 50 }} // Start from the right and invisible
+          whileInView={{ opacity: 1, y: 0 }} // Fade in and slide into position
+          transition={{ duration: 1.0 }}
           className="flex flex-col gap-5 lg:pt-70 "
         >
           {technologies.map((tech, index) => (
@@ -266,7 +266,7 @@ const TechnologiesSection = () => {
                   {activeIndex === index ? "-" : "+"}
                 </div>
                 <div>
-                  <h2 className="lg:text-xl text-[13px] lg:font-semibold md:font-semibold">
+                  <h2 className="lg:text-xl text-[15px] lg:font-semibold md:font-semibold">
                     {tech.title}
                   </h2>
                 </div>
