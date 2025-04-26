@@ -15,7 +15,7 @@ function Sidebar({ closeSidebar }) {
         <div className="absolute text-[#58585A]">
           <button
             onClick={closeSidebar}
-            className="relative top-4 left-[70px] text-3xl font-bold flex items-center cursor-pointer"
+            className="relative top-4 lg:left-[70px] md:left-[65px] text-3xl font-bold flex items-center cursor-pointer"
           >
             ✖ 
             <span className="ml-2 text-sm font-normal">CLOSE</span>
