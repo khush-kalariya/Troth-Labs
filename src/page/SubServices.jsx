@@ -105,7 +105,7 @@ const data = [
 function SubServices() {
   return (
     <>
-      <div className="lg:px-36 px-3 pb-10 flex">
+      <div className="lg:px-36 px-6 pb-10 flex">
         <div>
           <div className="pt-30 pb-5">
             <h1 className="text-5xl font-semibold">Services</h1>
