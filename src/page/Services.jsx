@@ -16,6 +16,7 @@ import { motion } from "framer-motion";
 
 const data = [
   {
+    url: "https://nodejs.org/en",
     imgSrc: nodejs,
     title: "Node JS",
     Description:
@@ -23,6 +24,7 @@ const data = [
   },
 
   {
+    url: "https://react.dev/",
     imgSrc: react,
     title: "React JS",
     Description:
@@ -30,6 +32,7 @@ const data = [
   },
 
   {
+    url: "https://developers.google.com/search",
     imgSrc: seo,
     title: "SEO",
     Description:
@@ -37,30 +40,35 @@ const data = [
   },
 
   {
+    url: "https://developer.apple.com/",
     imgSrc: apple,
     title: "Iphone Software Development",
     Description:
       "Unlock the full potential of iOS with our expert iPhone software development services. From sleek user interfaces to robust backend functionality, we craft tailored solutions that elevate your app to the top of the App Store charts. Let us turn your ideas into intuitive, high-performance applications that captivate users and drive business success.",
   },
   {
+    url: "https://www.w3schools.com/Html/",
     imgSrc: html,
     title: "HTML5 & CSS3",
     Description:
       "Elevate your web presence with cutting-edge HTML5 and CSS3 development. Our expert team crafts visually stunning and seamlessly responsive websites that deliver exceptional user experiences across all devices. With the latest in web technologies, we ensure your site stands out, loads fast, and engages visitors, driving conversions and boosting your online success.",
   },
   {
+    url: "https://developer.android.com/",
     imgSrc: android,
     title: "Android Development",
     Description:
       "Transform your vision into reality with our Android development expertise. Our seasoned team crafts dynamic, user-friendly apps that leverage the full potential of the Android platform. From concept to deployment, we ensure seamless performance, intuitive interfaces, and compatibility across devices, empowering you to reach a wider audience and achieve your business goals in the competitive mobile market.",
   },
   {
+    url: "https://www.php.net/",
     imgSrc: php,
     title: "PHP Web Development",
     Description:
       "Unlock the power of PHP for your web projects with our expert development services. Whether you need a dynamic website, custom web application, or robust e-commerce platform, our skilled team leverages PHP's versatility and efficiency to deliver scalable solutions tailored to your specific requirements. From backend development to seamless integration, we ensure high performance, security, and a superior user experience for your online presence.",
   },
   {
+    url: "https://symfony.com/",
     imgSrc: symfony,
     title: "Symfony Application Development",
     Description:
@@ -131,7 +139,10 @@ function Services() {
               <p className="text-center text-[16.5px] text-gray-600 mb-6 leading-relaxed">
                 {item.Description}
               </p>
-              <button className="relative overflow-hidden px-5 py-3 mt-auto bg-[#58585A] text-white font-semibold flex items-center gap-2 rounded cursor-pointer group">
+              <a
+                href={item.url}
+                className="relative overflow-hidden px-5 py-3 mt-auto bg-[#58585A] text-white font-semibold flex items-center gap-2 rounded cursor-pointer group"
+              >
                 <span className="relative z-10 flex items-center gap-2">
                   Read More
                   <span className="text-xl font-semibold">
@@ -139,7 +150,7 @@ function Services() {
                   </span>
                 </span>
                 <span className="absolute left-0 top-0 h-full w-0 bg-black transition-all duration-500 ease-in-out group-hover:w-full z-0" />
-              </button>
+              </a>
             </motion.div>
           ))}
         </div>
