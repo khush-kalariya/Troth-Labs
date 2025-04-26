@@ -130,7 +130,7 @@ const Header = ({ toggleSidebar }) => {
 
   return (
     <div
-      className={`bg-zinc-100 px-4 py-4 lg:px-20 lg:py-5 flex items-center justify-between fixed w-full top-0 z-50 transition-transform duration-300 ${
+      className={`bg-white px-4 py-4 lg:px-20 lg:py-5 flex items-center justify-between fixed w-full top-0 z-50 transition-transform duration-300 ${
         showHeader ? "translate-y-0" : "-translate-y-full"
       }`}
     >
