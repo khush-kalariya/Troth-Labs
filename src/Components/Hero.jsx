@@ -14,10 +14,10 @@ function Hero() {
         initial={{ opacity: 0, x: -50 }}
         animate={{ opacity: 1, x: 0 }}
         transition={{ duration: 0.8 }}
-        className="lg:w-[50%] w-full lg:pl-[110px] lg:flex md:px-10 sm:px-10 px-10"
+        className="lg:w-[40%] w-full xl:w-[50%] lg:pl-[90px] lg:flex md:px-10 sm:px-10 px-10"
       >
-        <div className="lg:mr-25 lg:pt-20">
-          <h1 className="lg:text-[38px] text-[21px] pt-15 font-bold lg:font-semibold tracking-wide">
+        <div className="lg:mr-0 xl:mr-20 w-full lg:pt-20">
+          <h1 className="lg:text-[22px] w-full xl:text-[38px] text-[21px] pt-15 font-bold lg:font-semibold tracking-wide">
             "Troth Labs is a young entrepreneurial venture established in 2009
             through Troth Labs."
           </h1>
@@ -48,7 +48,7 @@ function Hero() {
         initial={{ opacity: 0, x: 50 }}
         animate={{ opacity: 1, x: 0 }}
         transition={{ duration: 0.8, delay: 0.2 }}
-        className="w-[50%] flex gap-10 max-lg:w-full px-10 pb-10 max-sm:flex-col max-lg:mr-10 mr-20 mb-10"
+        className="xl:w-[50%] lg:w-[60%] lg:gap-6 xl:gap-10 lg:px-8 xl:px-10 flex gap-10 w-full px-10 pb-10 flex-col md:flex-row lg:mr-10 mr-20 mb-10"
       >
         {/* Left column cards */}
         <div className="flex flex-col gap-[20px] mt-20">
