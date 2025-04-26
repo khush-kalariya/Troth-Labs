@@ -6,10 +6,9 @@ import mange from "../assets/management-2.png";
 import path from "../assets/pathway.png";
 import deadline from "../assets/deadline.png";
 import { Link } from "react-router-dom";
-
 function Hero() {
   return (
-    <div className="bg-[#FFE9DC] w-full h-full lg:flex">
+    <div className="bg-[#FFE9DC] w-full h-full lg:flex lg:pt-28 pt-10">
       {/* Left Section */}
       <motion.div
         initial={{ opacity: 0, x: -50 }}
