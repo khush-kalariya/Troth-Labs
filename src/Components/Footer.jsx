@@ -1,6 +1,11 @@
 import React from "react";
 import troth from "../assets/troth-logo-1.png";
-import { FaLocationDot, FaMobileScreenButton, FaEnvelope, FaClock } from "react-icons/fa6";
+import {
+  FaLocationDot,
+  FaMobileScreenButton,
+  FaEnvelope,
+  FaClock,
+} from "react-icons/fa6";
 import Divider from "./Divider";
 
 // Footer Data
@@ -33,24 +38,26 @@ function Footer() {
         <img src={troth} alt="Troth Labs Logo" className="" />
       </div>
 
-      <div className="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 justify-items-center gap-0 lg:px-20 px-5">
-        {footerInfo.map((item, index) => (
-          <div key={index} className="flex items-center gap-5 max-w-xs pb-5">
-            <div>
-              <div className="w-14 h-14 bg-[#F36F21] text-white text-2xl flex justify-center items-center rounded">
-                {item.icon}
+      <div className="flex justify-center items-center">
+        <div className="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1  gap-10 lg:px-25 px-5">
+          {footerInfo.map((item, index) => (
+            <div key={index} className="flex items-center gap-5 max-w-xs pb-5">
+              <div>
+                <div className="w-14 h-14 bg-[#F36F21] text-white text-2xl flex justify-center items-center rounded">
+                  {item.icon}
+                </div>
+              </div>
+
+              <div className="flex flex-col text-black font-medium text-[14px]">
+                {item.lines.map((line, idx) => (
+                  <p key={idx} className="">
+                    {line}
+                  </p>
+                ))}
               </div>
             </div>
-
-            <div className="flex flex-col text-black font-medium text-[14px]">
-              {item.lines.map((line, idx) => (
-                <p key={idx} className="">
-                  {line}
-                </p>
-              ))}
-            </div>
-          </div>
-        ))}
+          ))}
+        </div>
       </div>
 
       {/* Footer Bottom */}
