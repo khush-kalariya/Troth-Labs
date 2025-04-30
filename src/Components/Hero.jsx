@@ -51,7 +51,7 @@ function Hero() {
         className="xl:w-[50%] lg:w-[60%] lg:gap-6 xl:gap-10 lg:px-8 xl:px-10 flex gap-0 md:gap-10 w-full px-10 pb-10 flex-col md:flex-row lg:mr-10 mr-20 mb-10"
       >
         {/* Left column cards */}
-        <div className="flex flex-col gap-[20px] mt-20">
+        <div className="flex flex-col xl:gap-10 lg:gap-6 gap-4 mt-20">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
@@ -61,7 +61,7 @@ function Hero() {
             <div className="w-[70px] flex flex-col">
               <img src={laptop} alt="" />
             </div>
-            <p className="text-[20px] mt-[12px] font-extrabold">
+            <p className="text-[20px] mt-[12px] font-semibold">
               High Quality Code
             </p>
             <p className="tracking-wide text-gray-500 pt-[10px]">
@@ -80,7 +80,7 @@ function Hero() {
             <div className="w-[70px] flex flex-col">
               <img src={mange} alt="" />
             </div>
-            <p className="text-[20px] mt-[12px] font-extrabold">
+            <p className="text-[20px] mt-[12px] font-semibold">
               Full-stack teams
             </p>
             <p className="tracking-wide text-gray-500 pt-[10px]">
@@ -93,7 +93,7 @@ function Hero() {
         </div>
 
         {/* Right column cards */}
-        <div className="flex flex-col gap-[20px] mt-[20px]">
+        <div className="flex flex-col xl:gap-10 lg:gap-6 gap-4 mt-[20px]">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
@@ -103,7 +103,7 @@ function Hero() {
             <div className="w-[70px] flex flex-col">
               <img src={path} alt="" />
             </div>
-            <p className="text-[20px] mt-[12px] font-extrabold">
+            <p className="text-[20px] mt-[12px] font-semibold">
               Agile Approach
             </p>
             <p className="tracking-wide text-gray-500 pt-[10px]">
@@ -123,7 +123,7 @@ function Hero() {
             <div className="w-[70px] flex flex-col">
               <img src={deadline} alt="" />
             </div>
-            <p className="text-[20px] mt-[12px] font-extrabold">Flexibility</p>
+            <p className="text-[20px] mt-[12px] font-semibold">Flexibility</p>
             <p className="tracking-wide text-gray-500 pt-[10px]">
               Flexibility is the capacity to adjust or adapt easily to changing
               circumstances, requirements, or situations, enabling individuals

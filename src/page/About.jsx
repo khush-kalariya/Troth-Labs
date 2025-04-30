@@ -221,11 +221,11 @@ function About() {
 
       <div className="lg:px-36 px-3 pb-10 flex">
         <div className="pt-25 pb-20">
-          <div className="grid xl:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-1">
+          <div className="grid xl:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-2">
             {data.map((item, index) => (
               <motion.div
                 key={index}
-                className="w-full border flex flex-col items-center pt-25 px-5"
+                className="w-full border border-gray-400 flex flex-col items-center pt-25 px-5"
                 initial={{ opacity: 0, y: 40 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.6, delay: index * 0.1 }}

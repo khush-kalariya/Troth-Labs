@@ -111,11 +111,11 @@ function SubServices() {
             <h1 className="text-5xl font-semibold">Services</h1>
           </div>
 
-          <div className="grid xl:grid-cols-4 md:grid-cols-2 grid-cols-1 gap-1">
+          <div className="grid xl:grid-cols-4 md:grid-cols-2 grid-cols-1 gap-2">
             {data.map((item, index) => (
               <motion.div
                 key={index}
-                className="w-full border flex flex-col items-center pt-25 px-5"
+                className="w-full border border-gray-400 flex flex-col items-center pt-25 px-5"
                 initial={{ opacity: 0, y: 30 }} // Initial state: invisible and slightly below
                 whileInView={{ opacity: 1, y: 0 }} // Final state: fully visible and in position
                 transition={{ duration: 0.5, delay: index * 0.2 }} // Animation delay for each card

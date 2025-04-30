@@ -137,7 +137,7 @@ function Career() {
           {data.map((item, index) => (
             <motion.div
               key={index}
-              className="w-full border flex flex-col items-center pt-20 px-7 pb-5"
+              className="w-full border border-gray-400 flex flex-col items-center pt-20 px-7 pb-5"
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.4, delay: index * 0.1 }}

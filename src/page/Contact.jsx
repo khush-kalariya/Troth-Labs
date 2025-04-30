@@ -239,8 +239,8 @@ function Contact() {
                     <FaPhoneAlt className="text-white text-xl" />
                   </div>
                   <div className="text-sm md:text-base">
-                    <p>+91 901 621 3380</p>
-                    <p>+91 999 814 3131</p>
+                    <p>+91 90162 13380</p>
+                    <p>+91 99981 43131</p>
                   </div>
                 </motion.div>
 

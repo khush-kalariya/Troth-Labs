@@ -6,6 +6,7 @@ import search from "../assets/search.png";
 import target from "../assets/taarget.png";
 import winstep from "../assets/Number.png";
 import slideo from "../assets/slide.jpg";
+import SliderImag from "../Components/SliderImag"
 
 const steps = [
   {
@@ -76,9 +77,11 @@ function Working() {
         </div>
       </div>
 
-      <div className="overflow-hidden">
+
+      <SliderImag />      
+      {/* <div className="overflow-hidden">
         <marquee
-          className=""
+          className="translate-x-[50%]"
           behavior="scroll"
           direction="left"
           scrollamount="10"
@@ -98,7 +101,7 @@ function Working() {
           <img src={slideo} alt="slide" className="inline h-[400px] w-full -pt-70" />
           <img src={slideo} alt="slide" className="inline h-[400px] w-full -pt-70" />
         </marquee>
-      </div>
+      </div> */}
     </>
   );
 }

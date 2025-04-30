@@ -9,7 +9,7 @@ import { Link } from "react-router-dom";
 
 function Sidebar({ closeSidebar }) {
   return (
-    <div className="flex flex-col lg:flex-row h-screen overflow-y-auto">
+    <div className="flex flex-col lg:flex-row h-full overflow-y-auto w-full">
       <div className="bg-white w-full lg:w-1/2 relative p-6">
         {/* Close btn*/}
         <div className="absolute text-[#58585A]">
@@ -60,8 +60,8 @@ function Sidebar({ closeSidebar }) {
           <div className="flex gap-3 mb-4">
             <MdOutlinePhoneIphone className="text-2xl" />
             <div className="font-light">
-              <p>+91 901 621 3380</p>
-              <p>+91 999 814 3131</p>
+              <p>+91 90162 13380</p>
+              <p>+91 99981 43131</p>
             </div>
           </div>
 
